@@ -4,31 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
-        <div class="container">
-                <div>
-                  <header>Contact
-                        <a href="file:///C:/Users/equil/Desktop/bootcamp/Portfolio/contact.html">Contact</a>
-                        <a href="file:///C:/Users/equil/Desktop/bootcamp/Portfolio/portfolio.html">Portfolio</a>
-                        <a href="file:///C:/Users/equil/Desktop/bootcamp/Portfolio/index.html">About</a>
-                  </header>
-                </div>
-                <div class="row">
-                  <div class="column">
-                    <form action="/action_page.php">
-                      <label for="name">Name</label>
-                      <input type="text" id="name" name="name">
-                      <label for="email">Email</label>
-                      <input type="text" id="email" name="email">
-                      <label for="message">Message</label>
-                      <textarea id="message" name="message" style="height:170px"></textarea>
-                      <input type="submit" value="Submit">
-                    </form>
-                  </div>
-                </div>
-              </div>
+  <header>
+    <div id="name">
+      Elizabeth Garcia-Quilinquin
+    </div>
+    <section class="info">
+        <a href="contact.html">Contact</a> |
+        <a href="portfolio.html">Portfolio</a> |
+        <a href="index.html">About</a> 
+    </section>
+  </header>
+  
+  <div class="container">
+    <h1>Contact</h1>
+    <div class="contact">
+    <form action="action_page.php">
+  
+      <label for="lname">Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Name">
+
+  
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Email">
+  
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Message..." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+    </div>
+  </div>
+  
+  <footer>Copyright&#9400;</footer>
 </body>
 
 </html>
